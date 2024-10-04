@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Submit Button -->
+    <item
+        android:id="@+id/submit"
+        android:title="@string/submit"
+        app:showAsAction="ifRoom|withText" />
+
+    <!-- Menu Items for Different Questionnaires -->
+    <item
+        android:id="@+id/questionnaire_default"
+        android:title="Default Questionnaire"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/questionnaire_covid"
+        android:title="COVID Questionnaire"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/questionnaire_register"
+        android:title="Register Questionnaire"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/questionnaire_start"
+        android:title="Start Questionnaire"
+        app:showAsAction="never" />
+</menu>
